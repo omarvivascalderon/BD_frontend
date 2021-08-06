@@ -1,0 +1,16 @@
+.errores-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 90%;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #b5b5b559;
+    border-radius: 13px;
+    padding: 6px 24px;
+    margin: 23px;
+}
+
+.errores-container > span{
+    color: rgb(0 0 0 / 60%);
+}
